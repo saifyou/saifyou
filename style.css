@@ -60,5 +60,45 @@ header h1
     text-align: center;
 }
 
-
 /* F.header */
+
+/* section principal */
+.main
+{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+/* cartes */
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards .card
+{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.cards .card img{
+    width: 300px;
+}
+
+.cards .card .card-header
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* F.cartes */
+
+
+/* F.sec princ /*
