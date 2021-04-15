@@ -97,8 +97,36 @@ header h1
     justify-content: space-between;
 }
 
-
 /* F.cartes */
 
-
 /* F.sec princ /*
+
+/* Footer */
+footer
+{
+    margin-top: 100px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+
+/* F.footer */
+
+@media screen and (max-width: 640px) 
+{
+    nav .onglette .link  nav h1
+    {
+        display: none;
+    }  
+    .cards .card
+    {
+        margin-left: 10px;
+    }
+    .cards .card img
+    {
+        width: 300px;
+    }  
+}
